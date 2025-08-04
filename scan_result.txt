@@ -1,0 +1,40 @@
+# Nmap 7.97 scan initiated Mon Aug  4 21:28:03 2025 as: nmap -sS -oN scan_result.txt 192.168.29.162/24
+Nmap scan report for 192.168.29.1
+Host is up (0.0093s latency).
+Not shown: 991 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+1900/tcp open   upnp
+2869/tcp closed icslap
+7443/tcp open   oracleas-https
+8002/tcp closed teradataordbms
+8080/tcp open   http-proxy
+8200/tcp closed trivnet1
+8443/tcp open   https-alt
+MAC Address: A8:DA:0C:8D:A2:75 (Servercom (India) Private Limited)
+
+Nmap scan report for 192.168.29.161
+Host is up (0.013s latency).
+All 1000 scanned ports on 192.168.29.161 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 3E:5A:39:0C:C1:DD (Unknown)
+
+Nmap scan report for 192.168.29.207
+Host is up (0.0083s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+5060/tcp filtered sip
+MAC Address: 52:75:3F:25:00:6A (Unknown)
+
+Nmap scan report for 192.168.29.162
+Host is up (0.00075s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+902/tcp open  iss-realsecure
+912/tcp open  apex-mesh
+
+# Nmap done at Mon Aug  4 21:28:33 2025 -- 256 IP addresses (4 hosts up) scanned in 30.59 seconds
